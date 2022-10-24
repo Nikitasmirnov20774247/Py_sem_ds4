@@ -5,7 +5,7 @@ try:
     def create_list(size):
         list = []
         for i in range(size):
-            list.append(int(input('Введите число: ')))
+            list.append(str(input('Введите число: ')))
         return list
 
     def original_num(list):
